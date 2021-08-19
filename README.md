@@ -1,22 +1,9 @@
-## Notes
-
-#### Older React Version
+#### Environment Variables
 
 ```
-"react": "^16.13.1",
-"react-dom": "^16.13.1",
-"react-scripts": "3.4.3",
+REACT_APP_AUTH_DOMAIN=
+REACT_APP_CLIENT_ID=
+REACT_APP_STRIPE_PUBLIC_KEY=
+REACT_APP_STRIPE_SECRET_KEY=
 ```
 
-#### Current React Version
-
-```
-"react": "^17.0.1",
-"react-dom": "^17.0.1",
-"react-scripts": "4.0.0",
-```
-
-#### Alternative fix
-
-.env file in the root
-FAST_REFRESH=FALSE
